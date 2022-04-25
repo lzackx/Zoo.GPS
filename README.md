@@ -1,6 +1,5 @@
 # Zoo.GPS
 
-[![CI Status](https://img.shields.io/travis/lzackx/Zoo.GPS.svg?style=flat)](https://travis-ci.org/lzackx/Zoo.GPS)
 [![Version](https://img.shields.io/cocoapods/v/Zoo.GPS.svg?style=flat)](https://cocoapods.org/pods/Zoo.GPS)
 [![License](https://img.shields.io/cocoapods/l/Zoo.GPS.svg?style=flat)](https://cocoapods.org/pods/Zoo.GPS)
 [![Platform](https://img.shields.io/cocoapods/p/Zoo.GPS.svg?style=flat)](https://cocoapods.org/pods/Zoo.GPS)

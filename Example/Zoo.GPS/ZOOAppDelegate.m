@@ -7,12 +7,24 @@
 //
 
 #import "ZOOAppDelegate.h"
+#import <Zoo/ZooManager.h>
+#import <ZooGeneral/ZooManager+General.h>
+#import <ZooGeneral/ZooCacheManager+General.h>
+#import <ZooGPS/ZooManager+GPS.h>
+#import <ZooGPS/ZooCacheManager+GPS.h>
 
 @implementation ZOOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[ZooManager shareInstance] addGeneralPlugins];
+    [[ZooManager shareInstance] addGPSPlugins];
+    [[ZooManager shareInstance] setupGeneralPlugins];
+    [[ZooManager shareInstance] setupGPSPlugins];
+    [[ZooManager shareInstance] install];
+    
     return YES;
 }
 
