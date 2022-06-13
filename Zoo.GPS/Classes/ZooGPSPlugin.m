@@ -6,7 +6,7 @@
 
 #import "ZooGPSPlugin.h"
 #import "ZooGPSViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooGPSPlugin
 
